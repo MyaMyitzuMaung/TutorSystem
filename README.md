@@ -52,7 +52,7 @@ dotnet ef dbcontext scaffold "Server=.;Database=TutorSystemDB;Trusted_Connection
 ## API Endpoints (examples)
 - `GET /api/Teacher`
 - `POST /api/Teacher`
-- `PUT /api/Teacher/{id}`
+- `PATCH /api/Teacher/{id}`
 - `DELETE /api/Teacher/{id}`
 - Similar endpoints for `Course` and `StudentLevel`
 
