@@ -57,7 +57,7 @@ dotnet ef dbcontext scaffold "Server=.;Database=TutorSystemDB;Trusted_Connection
 - Similar endpoints for `Course` and `StudentLevel`
 
 ## Notes & best practices
-- Keep secrets (DB passwords) out of repo. Use `appsettings.Development.json` and add it to `.gitignore`.
+- Keep secrets (DB passwords) out of repo. Use `appsettings.json` and add it to `.gitignore`.
 - If you accidentally commit secrets, rotate them immediately.
 - Use `CourseId` (int) for relations instead of string `CourseType` when you are ready.
 
