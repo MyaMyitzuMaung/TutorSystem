@@ -20,6 +20,7 @@ AppDbContextModels/
 
 # Local settings / secrets
 appsettings.Development.json
+TutorSystem.WebApi/appsettings.json
 secrets.json
 *.db
 *.log
