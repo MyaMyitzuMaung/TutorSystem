@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Rider/IDE files
+.idea/
+
+# VS Code
+.vscode/
+
+# EF Core scaffolding (optional)
+AppDbContextModels/
+
+# Local settings / secrets
+appsettings.Development.json
+secrets.json
+*.db
+*.log
+
+# Node front-end (if any)
+node_modules/
+dist/
+
+# OS
+Thumbs.db
+.DS_Store
